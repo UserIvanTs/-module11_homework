@@ -1,4 +1,4 @@
-константное  совпадение  =  ( str1 ,  str2 )  =>  {
-  вернуть  строку1 . toLowerCase ( )  ==  str2 . в нижний регистр ( ) ;
-} ;
-модуль . экспорт  =  совпадение ;
+const match = (str1, str2) => {
+  return str1.toLowerCase() == str2.toLowerCase();
+};
+module.exports = match;
